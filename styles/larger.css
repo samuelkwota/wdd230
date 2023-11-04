@@ -1,0 +1,87 @@
+
+    body {
+        font-family: "Sansita", sans-serif;
+    
+    }
+    
+    /* mobile **************************/
+    header {
+        background-color: #285580;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+      
+    }
+
+    img{
+        width: 100px;
+    }
+    
+    
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        
+        
+    }
+    
+  
+    
+    nav {
+        background-color: #12171a;
+        margin: 0 auto;
+        max-width: px;
+    }
+  
+    nav a {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+    }
+    
+    nav a:hover {
+        border: 1px solid #fff;
+    }
+    
+   
+    
+    /* Larger Views ******************************/
+    @media (min-width: 640px) {
+        nav ul {
+            display: flex;
+        }
+        nav ul li {
+            flex: 1 1 100%;
+        }
+    }
+    
+    
+    
+    /* Style the card sections */
+    .card {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        
+        
+    
+   
+    }
+    h3 {
+        background-color: #285580;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 1px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+       text-align: center;
+    }
+ 
+  
+    /* Additional larger view styles */
