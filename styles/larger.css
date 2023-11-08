@@ -16,17 +16,23 @@
 
     img{
         width: 100px;
+        
     }
     
     
     main {
         max-width: 1000px;
         margin: 0 auto;
-        
+        display: grid;
+	    grid-template-columns: 1fr 200px;
+	    grid-gap: 1.5rem;
         
     }
     
-  
+    h2 {
+        color: navy;
+        grid-column: 1/3;
+      }
     
     nav {
         background-color: #12171a;
@@ -78,9 +84,11 @@
         border: 1px solid #ddd;
         border-radius: 1px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        color: #ffffff;
     }
     h2 {
        text-align: center;
+       color: #0e0a0a;
     }
  
   
