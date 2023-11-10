@@ -19,14 +19,24 @@
         
     }
     
-    
-    main {
+
+       main {
         max-width: 1000px;
         margin: 0 auto;
         display: grid;
 	    grid-template-columns: 1fr 200px;
 	    grid-gap: 1.5rem;
+        background-color: #eee;
+        color: #000;
         
+    }
+    #mode {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 3rem;
+        cursor: pointer;
+        font-size: 2rem;
     }
     
     h2 {
@@ -52,12 +62,23 @@
         border: 1px solid #fff;
     }
     
-   
+    .hamburger {
+        display: none;
+        background: none;
+        border: 10px;
+        cursor: pointer;
+        color: #fff;
+        
+    }
     
     /* Larger Views ******************************/
     @media (min-width: 640px) {
-        nav ul {
+        .menu {
             display: flex;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
         }
         nav ul li {
             flex: 1 1 100%;
@@ -65,10 +86,22 @@
     }
     
     
+    .menu.show {
+        display: block;
+    }
+
+    .menu li {
+        margin-bottom: 10px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
     
     /* Style the card sections */
     .card {
-        background-color: #fff;
+       
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 5px;
@@ -88,7 +121,7 @@
     }
     h2 {
        text-align: center;
-       color: #0e0a0a;
+       color: #285580;
     }
  
   

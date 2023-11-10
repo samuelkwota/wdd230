@@ -23,7 +23,7 @@ header {
 
 header img {
     width: 100px;
-    height: 100px;
+    height: 120px;
     box-shadow: 0 0 30px rgb(29, 25, 25);
 }
 
@@ -39,11 +39,12 @@ main {
     max-width: 960px;
     margin: 0 auto;
     padding: 0px;
-   
+    background-color: #eee;
+	color: #000;
 }
 
 .card {
-    background-color: #fff;
+   
     padding: 2px;
     margin-bottom: 30px;
     padding: 1rem;

@@ -9,3 +9,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const lastModifiedParagraph = document.getElementById('lastModified');
     lastModifiedParagraph.textContent = 'Last modified: ' + lastModified.toLocaleString();
 });
+
+const menuToggle = document.getElementById("menuToggle");
+const menu = document.getElementById("menu");
+
+menuToggle.addEventListener("click", () => {
+    menu.classList.toggle("show");
+});
+
+
