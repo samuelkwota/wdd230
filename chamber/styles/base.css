@@ -1,0 +1,184 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.hero img {
+    width: 1561px;
+    height: 400px;
+   
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 2px;
+   
+}
+
+/* Events section */
+.events {
+    background-color: #f3ecec;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    color: #333;
+}
+
+.event {
+    margin-bottom: 20px;
+    
+}
+
+.event h3 {
+    color: #0066cc;
+}
+
+.event-date {
+    color: #333;
+}
+
+
+/* CTA section */
+.cta h2 {
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+}
+
+.join-btn {
+    position: absolute;
+    top: 120px;
+    width: 10%;
+    right: 10%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #0d1218;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    
+}
+
+.join-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Weather section */
+.weather {
+    background-color: #f3ecec;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.weather h2 {
+    color: #333;
+}
+
+.weather-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-info {
+    flex: 1;
+    text-align: center;
+}
+
+.weather-icon {
+    font-size: 36px;
+}
+
+.temperature {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.condition {
+    color: #333;
+}
+
+.weather-details {
+    flex: 1;
+}
+
+/* Spotlights section */
+.spotlights {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.spotlights h2 {
+    color: #333;
+}
+
+.spotlight {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.spotlight h3 {
+    color: #0066cc;
+}
+
+.spotlight p {
+    color: #333;
+}
+
+.spotlight a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotlight a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

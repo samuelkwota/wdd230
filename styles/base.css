@@ -21,11 +21,6 @@ header {
     padding: 200px;
 }
 
-header img {
-    width: 100px;
-    height: 120px;
-    box-shadow: 0 0 30px rgb(29, 25, 25);
-}
 
 nav ul {
     list-style: none;
