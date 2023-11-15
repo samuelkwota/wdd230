@@ -38,6 +38,11 @@ main {
 	color: #000;
 }
 
+  #pageCounter {
+    /* Your styles for the page visit counter */
+    font-size: 18px;
+    margin-top: 10px;
+  }
 .card {
    
     padding: 2px;
@@ -46,6 +51,18 @@ main {
     
 }
 
+iframe {
+    width: 63%;
+    height: 300px; /* Adjust the height according to your preference */
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    width: 100%;
+    
+    object-fit: cover;
+  }
 footer {
     background-color: #285580;
     color: #fff;

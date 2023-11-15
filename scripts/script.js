@@ -25,3 +25,9 @@ document.addEventListener('DOMContentLoaded', function () {
         hamburgerBtn.innerHTML = (menu.classList.contains('show')) ? '&#10005;' : '&#8801;';
     });
 });
+
+ // JavaScript code for page visit counter using localStorage
+ let counter = localStorage.getItem('pageCounter') || 0;
+ counter++;
+ localStorage.setItem('pageCounter', counter);
+ document.getElementById('counter').innerText = counter;

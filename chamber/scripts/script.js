@@ -13,3 +13,4 @@ document.addEventListener('DOMContentLoaded', function () {
     const modificationDate = new Date(document.lastModified);
     document.getElementById('modificationDate').textContent = modificationDate.toDateString();
 });
+
