@@ -31,17 +31,24 @@
     }
       .overlay {
         position: absolute;
-        top: 80%;
-        left: 50%;
+        top: 50%;
+        left: 30%;
         margin: 0 auto;
         transform: translate(-50%, -50%);
-        color: #285580;
+        color: #e8e8f1;
         text-align: center;
-        font-size: 5rem;
-        font-family: serif;
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        background-color: #285580;
+        padding: 20px;
+        border: 1px solid #181616;
+        border-radius: 5px;
+        box-shadow: 0 5px 100px rgba(241, 239, 239, 0.1);
+        overflow: hidden;
+        
       }
-  
-
+      
        main {
         max-width: 1490px;
         margin: 0 auto;
@@ -54,8 +61,8 @@
     }
     #mode {
         position: absolute;
-        top: 1rem;
-        right: 1rem;
+        right: 3rem;
+        bottom: -20rem;
         font-size: 3rem;
         cursor: pointer;
         font-size: 2rem;
