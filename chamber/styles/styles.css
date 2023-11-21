@@ -1,7 +1,6 @@
-/* Additional styles for responsiveness and other specific styles go here */
-/* You can customize and add more styles based on your design */
+
 @media screen and (max-width: 768px) {
-    /* Responsive styles go here */
+    
     header {
         flex-direction: column;
         align-items: flex-start;
@@ -44,5 +43,5 @@
 
     
 
-    /* Add more responsive styles as needed */
+   
 }
