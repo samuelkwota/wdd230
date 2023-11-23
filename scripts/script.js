@@ -31,3 +31,5 @@ document.addEventListener('DOMContentLoaded', function () {
  counter++;
  localStorage.setItem('pageCounter', counter);
  document.getElementById('counter').innerText = counter;
+
+ 
