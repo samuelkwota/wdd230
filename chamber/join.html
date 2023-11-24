@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Chamber of Commerce</title>
+    <meta name="description" content="Welcome to the Chamber of Commerce website. Join us to connect with local businesses.">
+    
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Social media meta settings -->
+    <meta property="og:title" content="Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="your-image-url.jpg">
+    <meta property="og:url" content="your-website-url">
+    <!--social media meta settings as needed -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">🌍Chamber of Commerce</div>
+        
+        <button id="hamburgerBtn" class="hamburger">&#8801;</button>
+        <nav>
+            
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join US</a></li> 
+            </ul>
+        </nav>
+    </header>
+  
+    
+    <main class="discover-container">
+        <section class="membership-form">
+            <h2>Membership Application</h2>
+            <form action="thankyou.html" method="get">
+                <label for="firstName">Applicant's First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+    
+                <label for="lastName">Applicant's Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+    
+                <label for="title">Title or Position:</label>
+                <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}" title="Please enter at least 7 characters containing only letters, spaces, or hyphens">
+    
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="example@example.com">
+    
+                <label for="phone">Mobile Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="businessName">Business/Organization Name:</label>
+                <input type="text" id="businessName" name="businessName" required>
+    
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel">
+                    <option value="NP">NP Membership (No Fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+    
+                <label for="businessDescription">Business/Organization Description:</label>
+                <textarea id="businessDescription" name="businessDescription"></textarea>
+    
+                <input type="hidden" id="timestamp" name="timestamp" value="<?php echo date('Y-m-d H:i:s'); ?>">
+    
+                <input type="submit" value="Submit Application">
+            </form>
+        </section>
+    
+        <section class="membership-benefits">
+            <h2>Membership Benefits</h2>
+
+            <div class="membership-benefit">
+                <h3>Bronze Membership Benefits</h3>
+                <ul>
+                    <li>Access to exclusive networking events</li>
+                    <li>Listing in our online business directory</li>
+                    <li>Discounts on Chamber-sponsored training programs</li>
+                </ul>
+            </div>
+    
+            <div class="membership-benefit">
+                <h3>Silver Membership Benefits</h3>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Featured spot on the Chamber's homepage</li>
+                    <li>Complimentary tickets to select Chamber events</li>
+                </ul>
+            </div>
+    
+            <div class="membership-benefit">
+                <h3>Gold Membership Benefits</h3>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Prominent logo placement in event materials</li>
+                    <li>Priority access to sponsorship opportunities</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+   
+
+    <footer>
+        <!-- Contact information and development information go here -->
+        <p>Contact us at: contact@chamberofcommerce.com</p>
+        <p>This project is for WDD 230 - Developed by Samuel Kwota</p>
+        <p id="lastModified">Last modified: <span id="modificationDate"></span></p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

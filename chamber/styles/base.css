@@ -241,6 +241,88 @@ section {
         grid-template-columns: 1fr; /* Single column layout for mobile */
     }
 }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h2 {
+    color: #333;
+}
+
+.membership-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.membership-benefits {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.thank-you {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.membership-benefit {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.membership-benefit h3 {
+    color: #333;
+}
+
+.membership-benefit ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.membership-benefit li {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Add responsive styles as needed */
+@media (max-width: 768px) {
+    .membership-form, .membership-benefits {
+        max-width: 100%;
+    }
+}
+
 footer {
     background-color: #333;
     color: #fff;
