@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You for Joining</title>
-    <meta name="description" content="Welcome to the Chamber of Commerce website. Join us to connect with local businesses.">
+    <title>Directory</title>
+    <meta name="description" content="Directory">
     
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Social media meta settings -->
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 <body>
     <header>
@@ -32,18 +33,22 @@
             </ul>
         </nav>
     </header>
-  
-    
-    <main class="discover-container">
-        <section class="thank-you">
-            <h2>Thank You for Joining!</h2>
-            <p>We appreciate your membership application. You'll receive a confirmation email shortly.</p>
-        </section>
+       <button id="toggle-view">Toggle View</button>
+    <main id="main-content">
+        
+        <!-- Member directory content will be added dynamically here -->
     </main>
    
 
+    <footer>
+        <!-- Contact information and development information go here -->
+        <p>Contact us at: contact@chamberofcommerce.com</p>
+        <p>This project is for WDD 230 - Developed by Samuel Kwota</p>
+        <p id="lastModified">Last modified: <span id="modificationDate"></span></p>
+    </footer>
 
     <script src="scripts/script.js"></script>
     <script src="scripts/app.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

@@ -1,0 +1,69 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week1/activity1.html",
+          "title": "Introduction to HTML"
+        },
+        {
+          "url": "week1/activity2.html",
+          "title": "CSS Basics"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "week2/activity1.html",
+          "title": "JavaScript Fundamentals"
+        },
+        {
+          "url": "week2/activity2.html",
+          "title": "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "week3/activity1.html",
+          "title": "Responsive Design"
+        },
+        {
+          "url": "week3/activity2.html",
+          "title": "CSS Frameworks"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "week4/activity1.html",
+          "title": "AJAX and Fetch API"
+        },
+        {
+          "url": "week4/activity2.html",
+          "title": "Introduction to Node.js"
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "week5/activity1.html",
+          "title": "Express.js Basics"
+        },
+        {
+          "url": "week5/activity2.html",
+          "title": "RESTful APIs"
+        }
+      ]
+    }
+  ]
+}

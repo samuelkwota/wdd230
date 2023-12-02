@@ -316,6 +316,34 @@ input[type="submit"] {
     color: #555;
 }
 
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px; /* Adjust as needed */
+}
+
+.member-list-item {
+    /* Your existing member list item styles */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px; /* Adjust as needed */
+    padding: 15px;
+    width: 100%; /* Ensure each list item takes the full width */
+}
+
+.member-card,
+.member-list-item {
+    box-sizing: border-box;
+    width: 100%; /* Adjust as needed for the desired number of columns */
+    margin: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+
 /* Add responsive styles as needed */
 @media (max-width: 768px) {
     .membership-form, .membership-benefits {

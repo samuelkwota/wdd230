@@ -50,6 +50,38 @@ main {
     
 }
 
+#weather-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 2px;
+    max-width: 300px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.p {
+    margin: 10px 0;
+    color: #555;
+}
+
+#temperature {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e44d26; /* Orange color for temperature */
+}
+
+#condition {
+    font-size: 18px;
+}
+
+#weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
 iframe {
     width: 63%;
     height: 300px; /* Adjust the height according to your preference */

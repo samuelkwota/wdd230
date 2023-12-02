@@ -49,25 +49,24 @@
         <img src="images/temple.webp" alt="Favorite Latter-day Temple">
       </picture>
       <div class="overlay">
-        <p>ACCRA GHANA TEMPLE</p>
+        <h4>ACCRA GHANA TEMPLE</h4>
       </div>
     <main id="mainContent">
         <h2 >WDD 230: Web Frontend Development</h2>
         <section class="card">
-            <h3 >Learning Activities</h3>
-           
-                <p> Week 01: Layout | Media Query | Js pen</p>
-                <p>Week 02: Degisn | Menu | BOM-25</p>
-                <p>Week 03: Webp | Lazy | Srcset | LocalStorage</p>
-                <p>Week 04:</p>
-                <p>Week 05:</p>
-                <p>Week 06:</p>
-                <p>Week 07:</p>
+            <div id="learning-activities">
+                <!-- Content will be dynamically generated here -->
+              </div>
+            
+            
         </section>
         <section class="card">
-            <h3>Information</h3>
-            <p>Ghana, Accra</p>
-            <p>Weather: 🌤️ 76 F - Sunshine</p>
+            <div id="weather-card">
+                <h3>Weather Information</h3>
+                <p>Temperature: <span id="temperature">from 28 to 28 °С</span></p>
+                <p>Condition: <span id="condition">wind 3.7 m/s. clouds 86 %, 1011 hpa</span></p>
+                <img id="weather-icon" src="images/weather3.png" alt="Weather Icon">
+            </div>
             <p id="pageCounter">Page Visits: <span id="counter">0</span></p>
             
             
@@ -81,6 +80,9 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/script.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/links.js"></script>
+    
     
 </body>
 </html>
